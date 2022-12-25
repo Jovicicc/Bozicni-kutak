@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.pre-header {
+    background-color: #D19275;
+    height: 40px;
+}
+.pre-header p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    padding-top: 10px;
+}
+img{
+    width: 115px;
+    height: 95px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    padding-bottom: 30px;
+}
+li{
+    display: inline-block;
+    position: right;
+    padding-right: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+}
+li a {
+    text-decoration: none;
+    color: #CDB79E;
+    border-right: 2px solid #D19275;
+    padding-right: 5px;
+}
+ul .kontakt-btn a{
+    background-color: #D19275;
+    padding: 5px;
+    color: whitesmoke;
+    border: 1px solid #D19275;
+}
+li a:hover{
+    color: blanchedalmond;
+    border-right: 4px solid #D19275;
+}
+ul .kontakt-btn a:hover{
+    background-color: transparent;
+    color: #D19275;
+    transition: 0.2s;
+}
+.hero-section{
+    background-image: url("images/hero.jpg");
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background-size: cover;
+}
+.hero-section h1{
+    color: white;
+    font-size: 60px;
+}
+.hero-section p{
+    color: white;
+    font-size: 25px;
+}
+.service-section h1{
+    font-size: 40px;
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #8B3E2F;
+    font-weight: bold;
+}
+.service-section p{
+    font-size: 20px;
+    text-indent: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 3px solid #8B3E2F;
+    padding: 60px;
+    background-color: #CDB38B;
+    background-size: cover;
+    color: white;
+}
+.service-section h3{
+    text-align: center;
+    padding-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #8B3E2F;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+.poruci-btn {
+    text-align: center;
+    padding-top: 15px;
+}
+.poruci-btn a{
+    text-decoration: none;
+    background-color: #D19275;
+    color: blanchedalmond;
+    padding: 5px;
+    font-size: 25px;
+}
+.poruci-btn a:hover {
+    background-color: blanchedalmond;
+    color: #D19275;
+    transition: 0.2s;
+}
+.service-section .poruci-btn{
+    padding-bottom: 80px;
+}
+.footer{
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
